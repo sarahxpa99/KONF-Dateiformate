@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<produkt>
+    <SmartphoneName>Samsung Galaxy S20</SmartphoneName>
+    <PreisinEur>163</PreisinEur>
+    <AufLager>true</AufLager>
+    <Farben>
+        <Farbe>Schwarz</Farbe>
+        <Farbe>Weiß</Farbe>
+    </Farben>
+    <BildschrimAuflösunginPixel>
+        <BilpunkteBreite>3200</BilpunkteBreite>
+        <BildpunkteHöhe>1440</BildpunkteHöhe>
+    </BildschrimAuflösunginPixel>
+</produkt>

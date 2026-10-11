@@ -27,8 +27,21 @@
 }   
 }  
 ``` 
-
-
+  
+## Als YML (`daten.yml`)  
+```yaml
+# Smartphone im Shop
+Smartphone Name: Samsung Galaxy S20
+Preis in Euro: 163
+Auf Lager: true
+Farben:
+- Schwarz
+- Weiß
+  Kategorie: Smartphone
+  Bildschirmauflösung in Pixel:
+  Bildpunkte in der Breite: 3200
+  Bildpunkte in der Höhe: 1440  
+```
 
 
 

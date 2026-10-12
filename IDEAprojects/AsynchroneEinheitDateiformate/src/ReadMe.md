@@ -1,5 +1,5 @@
 # Datensatz: Smartphone
-### Beschreibt mein Smartphone.
+### Beschreibt ein Smartphone im Warenkorb.
 
 ## Felder  
 `Smartphonename` (Text)- Name des Smartphones  
@@ -37,8 +37,8 @@ Auf Lager: true
 Farben:
 - Schwarz
 - Weiß
-  Kategorie: Smartphone
-  Bildschirmauflösung in Pixel:
+Kategorie: Smartphone
+Bildschirmauflösung in Pixel:
   Bildpunkte in der Breite: 3200
   Bildpunkte in der Höhe: 1440  
 ```  

@@ -7,7 +7,7 @@
 `Auf Lager` (Wahrheitswert) - aktell verfügbar?  
 `Farben` (Liste von Text) - welche Farben gibt es?  
 `Kategorie` (Text)  
-`Bildschirmauflösung` in Pixel (Objekt) - mit `Bildpunkte in Höhe` und `Breite`  
+`Bildschirmauflösung` in Pixel (Objekt) - mit `Bildpunkte in Höhe` und `Bildpunkte in Breite`  
 
 ## Als JSON (`daten.jason`)    
 ```JSON
@@ -24,11 +24,11 @@
 {  
 "Bildpunkte in der Breite": 3200,  
 "Bildpunkte in der Höhe": 1440  
-}   
+  }   
 }  
 ``` 
   
-## Als YML (`daten.yml`)  
+## Als YML (`daten.yml`)
 ```yaml
 # Smartphone im Shop
 Smartphone Name: Samsung Galaxy S20
@@ -41,8 +41,27 @@ Farben:
   Bildschirmauflösung in Pixel:
   Bildpunkte in der Breite: 3200
   Bildpunkte in der Höhe: 1440  
+```  
+
+## Als XML (`daten.xml`)  
+```xml  
+<?xml version="1.0" encoding="UTF-8"?>
+<produkt>
+    <SmartphoneName>Samsung Galaxy S20</SmartphoneName>
+    <PreisinEur>163</PreisinEur>
+    <AufLager>true</AufLager>
+    <Farben>
+        <Farbe>Schwarz</Farbe>
+        <Farbe>Weiß</Farbe>
+    </Farben>
+    <BildschrimAuflösunginPixel>
+        <BilpunkteBreite>3200</BilpunkteBreite>
+        <BildpunkteHöhe>1440</BildpunkteHöhe>
+    </BildschrimAuflösunginPixel>
+</produkt>
+```  
+## Als CSV (`daten.csv`)  
+```csv
+Smartphone Name,Preis in EUR,Auf Lager,Farben,Kategorie,Bildpunkte Breite,Bildpunkte Höhe
+Samsung Galaxy S20,163,True,Schwarz | Weiß,Smartphone,3200,1440
 ```
-
-
-
-
